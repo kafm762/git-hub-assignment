@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#DADED4;
+}
+
+.title h1{
+    height: 80px;
+    width: 1400px;
+    font-size: 80px;
+    background-color: #DADED4;
+    color:#3C403D;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    font-family:sans-serif;
+    font-weight: 100;
+}
+
+.central-park{
+    height: 350px;
+    width: 1300px;
+    border-right: 10px solid #3C403D;
+    margin-left: 150px;
+    background-color: #A3BCB6;
+}
+.container-1{
+    height: 350px;
+    width: 550px;
+    margin-right: 15px;
+    float: left;
+    position: relative;
+}
+
+.img-1{
+    height: 350px;
+    width: 550px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #3C403D;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.container-1:hover .overlay {
+    width: 100%;
+}
+
+.text {
+    white-space: nowrap; 
+    background-color: #3C403D;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.p-1{
+    font-size: 28px;
+    margin-right: 15px;
+    background-color: #A3BCB6;
+    margin-bottom: 15px;
+    font-weight: 100;
+    padding-top: 15px;
+    font-family:sans-serif;
+    font-weight: 100;
+}
+
+.met{
+    height: 380px;
+    width: 1300px;
+    border-left: 10px solid #3C403D;
+    margin-left: 150px;
+    margin-top: 25px;
+    background-color: #A3BCB6;
+}
+.container-2{
+    height: 380px;
+    width: 580px;
+    float: right;
+    position: relative;
+    margin-left: 15px;
+}
+
+.img-2{
+    height: 380px;
+    width: 580px;
+    margin-left: 15px;
+    float: right;
+    
+}
+
+.container-2:hover .overlay {
+    width: 100%;
+}
+
+.text {
+    white-space: nowrap; 
+    background-color: #3C403D;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+.p-2{
+    font-size: 28px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: #A3BCB6;
+    padding-top: 15px;
+    font-family:sans-serif;
+    font-weight: 100;
+}
+
+.times-square{
+    height: 300px;
+    width: 1300px;
+    border-right: 10px solid #3C403D;
+    margin-left: 150px;
+    margin-top: 25px;
+    background-color: #A3BCB6;
+}
+
+.container-3{
+    height: 300px;
+    width: 600px;
+    float: left;
+    position: relative;
+    margin-right: 15px;
+}
+
+.img-3{
+    height: 300px;
+    width: 600px;
+    float: left;
+    margin-right: 15px;
+}
+
+.container-3:hover .overlay {
+    width: 100%;
+}
+
+.p-3{
+    font-size: 28px;
+    background-color: #A3BCB6;
+    padding-top: 15px;
+    font-family:sans-serif;
+    font-weight: 100;
+}
+
+.empire-state-building{
+    height: 300px;
+    width: 1300px;
+    border-left: 10px solid #3C403D;
+    margin-left: 150px;
+    margin-top: 25px;
+    background-color: #A3BCB6;
+}
+
+.container-4{
+    height: 300px;
+    width: 600px;
+    float: right;
+    position: relative;
+}
+
+.img-4{
+    height: 300px;
+    width: 600px;
+    float: right;
+    margin-left: 10px;
+}
+
+.container-4:hover .overlay {
+    width: 100%;
+}
+
+.p-4{
+    font-size: 28px;
+    margin-right: 15px;
+    background-color: #A3BCB6;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding-top: 15px;
+    font-family:sans-serif;
+    font-weight: 100;
+}
+
+
+.statue-of-liberty{
+    height: 300px;
+    width: 1300px;
+    border-right: 10px solid #3C403D;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    background-color: #A3BCB6;
+}
+
+.container-5{
+    height: 300px;
+    width: 550px;
+    float: left;
+    position: relative;
+    margin-right: 15px;
+}
+
+.img-5{
+    width: 550px;
+    height: 300px;
+    float: left;
+}
+
+.container-5:hover .overlay {
+    width: 100%;
+}
+
+.p-5{
+    font-size: 28px;
+    margin-right: 15px;
+    background-color: #A3BCB6;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    font-family:sans-serif;
+    font-weight: 100;
+}
+
+
+a{
+    background-color: #A3BCB6;
+    font-size: 25px;
+    color:#39603D;
+    text-decoration: none;
+    margin-left: 550px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: green;
+}
